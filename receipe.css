@@ -1,0 +1,101 @@
+body{
+    font-family: young-serif;
+    font-size: 15px;
+    line-height: 1,6;
+    background-color: hsl(30, 54%, 90%);
+    margin: o;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  
+}
+
+.menu{
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 10px;
+   overflow: hidden;
+   text-align: left;
+   width: 450px;
+   overflow: hidden;
+   box-shadow: 0 4px 6px  hsl(30, 54%, 90%);
+}
+
+img{
+ width: 100%;
+ height: auto;   
+}
+
+.receipe{
+    padding: 20px;  
+  }
+
+  h1{
+    color: #000000;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+h2{
+    font-size: 1.2rem;
+    color:  hsl(14, 77%, 27%);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid hsl(0, 3%, 75%);
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2px 5px 1px 10px;
+    border-radius: 4px;
+}
+.food{
+    color: rgb(150, 27, 68);
+}
+ul, ol{
+    margin: 0 0 20px 20px;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 10px;
+    color: hsl(30, 10%, 34%)
+}
+
+.prep-time, .ingredients, .instructions, .nutrition{
+    margin-bottom: 20px;
+    }
+
+    span{
+        color: #801212;
+        font-weight:bold; 
+    }
+
+.nutrition p{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 10px;
+    font-family: young-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    
+}
+
+tr, td{
+    border-bottom: 1px solid hsl(0, 3%, 75%);
+    padding: 10px;
+}
+   
+    
